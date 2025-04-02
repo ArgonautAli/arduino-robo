@@ -8,11 +8,11 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   digitalWrite(13, HIGH);
-  delay(600);
+  delay(100);
   digitalWrite(13, LOW);
-  delay(900);
+  delay(100);
   digitalWrite(8, HIGH);
-  delay(500);
+  delay(100);
   digitalWrite(8, LOW);
-  delay(900);
+  delay(100);
 }
